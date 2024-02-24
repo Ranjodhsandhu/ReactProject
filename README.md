@@ -24,3 +24,8 @@ Learning React from scratch to brush up
     - Tree shaking algorithms - removes unused code from builds
 
 
+
+BrowserListjs
+    - https://browserslist.dev/
+    - Broswer Query compositions on this website
+    - 
