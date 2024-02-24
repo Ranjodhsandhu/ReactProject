@@ -1,0 +1,24 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "Brushing up React skills",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranjodhsandhu/ReactProject.git"
+  },
+  "keywords": [
+    "brush",
+    "up",
+    "react"
+  ],
+  "author": "Ranjodh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ranjodhsandhu/ReactProject/issues"
+  },
+  "homepage": "https://github.com/Ranjodhsandhu/ReactProject#readme"
+}
