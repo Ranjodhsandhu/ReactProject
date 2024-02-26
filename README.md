@@ -32,3 +32,5 @@ Learning React from scratch to brush up
 # npm commands
     - *npm start* is same as *npm run start*
     - npm build does not work, you have to write *npm run build*
+# JSX
+    -It is not HTML but its like HTML syntax. This following statement is a javascript object.
