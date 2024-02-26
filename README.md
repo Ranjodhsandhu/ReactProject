@@ -39,6 +39,8 @@ Learning React from scratch to brush up
     - JSX transpiles the code to HTML by parcel so that the javascript engine can understand this code.
     - Parcel actually gives this responsibility to BABEL to take care of this transpiling
     - JSX =(BABEL)=> React.createElemet ==> ReactElement - JS Object ==> HTML Element on rendering
+    - JSX escapes the data / sanitizes the data so that the bad code is not run
+    - JSX prevents XSS attacks
 # Babel
     - babeljs.io
     - Javascript library
@@ -46,7 +48,7 @@ Learning React from scratch to brush up
     - Compiles JSX to Reat code
 
 # React Components
-    - Class Based component - OLD way of writing react code
+    - Class Based component - Still in use but its an OLD way of writing react code
     - Functional component - NEW way of writing react code
         - regular like javascript function
         - Function name starts with a CAPITAL letter

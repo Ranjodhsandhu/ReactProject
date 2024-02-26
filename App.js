@@ -33,16 +33,21 @@ console.log(jsxHeading); // printing jsxHeading will print in console as an obje
 // const HeadingComponent1 = () => {
 //     return <h1 id="heading" className="root">React using JSX</h1>
 // }
+const number = 1999;
 // This is also known as Component Composition - We are including Title into container element
 const HeadingComponent2 = () => (
     <div id="container">
+        {Title()}
         <Title />
+        <Title></Title>
         <h2 id="heading" className="root">React functional component</h2>
     </div>
 );
 // const HeadingComponent3 = () => <h1 id="heading" className="root">React using JSX</h1>;
 
 const Title = () => (<h1>Another Title we have as component</h1>);
+
+const titleElement = (<h3>My tile element </h3>);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(jsxHeading); // this is how we render React Element
