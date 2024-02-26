@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Brushing up React skills",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/Ranjodhsandhu/ReactProject#readme",
   "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.33.2",
     "parcel": "^2.11.0",
     "process": "^0.11.10"
   },

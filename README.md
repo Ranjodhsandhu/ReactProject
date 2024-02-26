@@ -34,6 +34,8 @@ Learning React from scratch to brush up
     - npm build does not work, you have to write *npm run build*
 # JSX
     - It is not HTML but its like HTML syntax. This following statement is a javascript object.
+    - JSX attributes are camelCase
+    - JSX if written in multiple lines then wrap it with parentheses
     - JSX transpiles the code to HTML by parcel so that the javascript engine can understand this code.
     - Parcel actually gives this responsibility to BABEL to take care of this transpiling
     - JSX =(BABEL)=> React.createElemet ==> ReactElement - JS Object ==> HTML Element on rendering
@@ -42,3 +44,11 @@ Learning React from scratch to brush up
     - Javascript library
     - Babel is a Javascript Compiler
     - Compiles JSX to Reat code
+
+# React Components
+    - Class Based component - OLD way of writing react code
+    - Functional component - NEW way of writing react code
+        - regular like javascript function
+        - Function name starts with a CAPITAL letter
+        - if a function returns a JSX its called Functional Component in React
+    - Component Composition - when one component is called in another component
