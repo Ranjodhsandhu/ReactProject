@@ -25,7 +25,10 @@ Learning React from scratch to brush up
 
 
 
-BrowserListjs
+# BrowserListjs
     - https://browserslist.dev/
     - Broswer Query compositions on this website
-    - 
+
+# npm commands
+    - *npm start* is same as *npm run start*
+    - npm build does not work, you have to write *npm run build*
