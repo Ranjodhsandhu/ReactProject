@@ -33,4 +33,12 @@ Learning React from scratch to brush up
     - *npm start* is same as *npm run start*
     - npm build does not work, you have to write *npm run build*
 # JSX
-    -It is not HTML but its like HTML syntax. This following statement is a javascript object.
+    - It is not HTML but its like HTML syntax. This following statement is a javascript object.
+    - JSX transpiles the code to HTML by parcel so that the javascript engine can understand this code.
+    - Parcel actually gives this responsibility to BABEL to take care of this transpiling
+    - JSX =(BABEL)=> React.createElemet ==> ReactElement - JS Object ==> HTML Element on rendering
+# Babel
+    - babeljs.io
+    - Javascript library
+    - Babel is a Javascript Compiler
+    - Compiles JSX to Reat code
