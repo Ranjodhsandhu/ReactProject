@@ -54,3 +54,8 @@ Learning React from scratch to brush up
         - Function name starts with a CAPITAL letter
         - if a function returns a JSX its called Functional Component in React
     - Component Composition - when one component is called in another component
+
+# Props (Properties)
+    - To pass values to a component we use props
+    - Basically its like we are sending values as arguments to the function
+    - 
