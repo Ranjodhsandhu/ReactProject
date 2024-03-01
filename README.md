@@ -69,4 +69,9 @@ Learning React from scratch to brush up
         - Ex: import { <ComponentName>, <variableName } from "fileName";
 
 # React Hooks
-    - 
+    - (Normal JS functions) prebuilt utililty functions in React
+    - To use we need to import it from React
+    - These are imported as Named compoents (function)
+    - Two most important hooks
+        - useState() - used to create the state variables in React
+        - useEffect()
