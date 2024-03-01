@@ -76,4 +76,14 @@ Learning React from scratch to brush up
         - useState() - used to create the state variables in React
             - Whenever a state variable is updated UI is updated with it immediately
         - useEffect()
+
+# Reconcilliation Algorithm (AKA React Fiber (core architecture)) - Came with React 16
+    - Link (https://github.com/acdlite/react-fiber-architecture)
+    - React does the efficient DOM manipulation with the help of virtual DOM, this is the basic reason for React to be faster than most of the frameworks
+    - React creates a virtual DOM for all the UI components
+    - Virtual DOM is a representation of actual DOM
+    - Virtual DOM is basically a JS object but will convert to DOM when rendered
+
+    - Diff Algorithm
+        - Its job is to find the difference between Old Virtual DOM and New Virtual DOM, when state is updated.
     

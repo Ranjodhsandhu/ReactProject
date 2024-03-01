@@ -39,7 +39,8 @@
 .res-logo{
     width: 100%;
 }
-.filter-btn{
+.filter-btn,
+.clear-btn{
     margin: 10px;
     cursor: pointer;
 }
