@@ -58,4 +58,6 @@ Learning React from scratch to brush up
 # Props (Properties)
     - To pass values to a component we use props
     - Basically its like we are sending values as arguments to the function
+
+# React Hooks
     - 
