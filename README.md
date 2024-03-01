@@ -59,5 +59,14 @@ Learning React from scratch to brush up
     - To pass values to a component we use props
     - Basically its like we are sending values as arguments to the function
 
+# Export/Import types
+    - Default exports/imports (only one default export per file) 
+        - Ex: export default componentName;
+        - Ex: import component from "fileName";
+    - Named exports/imports
+        - Ex: export { <ComponentName>,<variableName> };
+        - Ex: export const <componentName>
+        - Ex: import { <ComponentName>, <variableName } from "fileName";
+
 # React Hooks
     - 
