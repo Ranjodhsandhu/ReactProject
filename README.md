@@ -74,4 +74,6 @@ Learning React from scratch to brush up
     - These are imported as Named compoents (function)
     - Two most important hooks
         - useState() - used to create the state variables in React
+            - Whenever a state variable is updated UI is updated with it immediately
         - useEffect()
+    
