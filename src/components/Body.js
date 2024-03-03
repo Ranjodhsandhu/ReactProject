@@ -1,5 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
+import Shimmer from "./Shimmer";
 const Body = () => {
 
     // Local State variable - using Hooks
@@ -19,7 +20,7 @@ const Body = () => {
 
         const json = await data.json();
         console.log(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
-        setListOfRestaurants(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
+        setListOfRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
 
     return(
@@ -49,7 +50,9 @@ const Body = () => {
             </div>
             <div className="res-container">
                 {
-                    listOfRestaurants.map((restaurant => 
+                    listOfRestaurants.length === 0 
+                    ? <Shimmer />
+                    : listOfRestaurants.map((restaurant => 
                     <RestaurantCard key={restaurant.info.id} resData={restaurant} />))
                 }
             </div>

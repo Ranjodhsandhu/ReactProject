@@ -100,4 +100,7 @@ Learning React from scratch to brush up
 
 # useEffect hook
     - useEffect() 
+
+# Shimmer UI
+    - Resembles the actual page UI
      

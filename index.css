@@ -27,7 +27,7 @@
 .res-card{
     margin: 5px;
     width: 200px;
-    background-color: lightgrey;
+    background-color: #f0f0f0;
     padding: 5px;
     border: 1px solid transparent;
 }
@@ -38,9 +38,36 @@
 }
 .res-logo{
     width: 100%;
+    height: 150px;
 }
 .filter-btn,
 .clear-btn{
     margin: 10px;
     cursor: pointer;
 }
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shimmer-card{
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    background-color: #f0f0f0 ;
+    color: grey;
+    display: inline-block;
+    /* adding gradients */
+    -webkit-mask: linear-gradient(120deg, #000 25%, #0005, #000 75%) right/250% 100%;
+    /* shimmer effect animation */
+    animation: shimmer 2.5s infinite;
+    background-repeat: no-repeat;
+}
+
+@keyframes shimmer {
+    100% {
+        /* setting up mask position at left side */
+        -webkit-mask-position: left
+     }
+ }
