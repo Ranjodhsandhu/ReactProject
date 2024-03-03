@@ -87,3 +87,20 @@ Learning React from scratch to brush up
     - Diff Algorithm
         - Its job is to find the difference between Old Virtual DOM and New Virtual DOM, when state is updated.
     
+# Monolith architecture
+    - Everything is written in one project including APIs, UI, Authentication, DB etc
+
+# Microservices architecture
+    - All services are independent of each other and can be used together to create a big app
+    - Separation of concern is the Jargon for this architecture
+    - These services interact with each other
+
+# Ways of making API calls
+     - Load --> Render --> API --> Re-render (always use this approach for better performance)
+
+# useEffect hook
+    - useEffect() 
+
+# Shimmer UI
+    - Resembles the actual page UI
+     
