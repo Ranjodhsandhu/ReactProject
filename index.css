@@ -65,6 +65,11 @@
     background-repeat: no-repeat;
 }
 
+.login-btn{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
 @keyframes shimmer {
     100% {
         /* setting up mask position at left side */
